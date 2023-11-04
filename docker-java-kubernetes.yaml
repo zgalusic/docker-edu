@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: server-service
-          image: DOCKER_USERNAME/REPO_NAME
+          image: zgalusic/docker-edu
           imagePullPolicy: Always
 ---
 apiVersion: v1
